@@ -1,0 +1,228 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFF;
+    color: black;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    font-size: 24px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li {
+    padding: 5px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    display: block;
+    
+  }
+
+  
+  .line {
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    margin: 3px;
+  }
+  .hero-banner {
+    background-image: url('images/banner.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    text-align: center;
+  }
+  
+  .hero-text {
+    max-width: 600px;
+    margin-left:-70%;
+    
+  }
+  
+  .hero-text h1 {
+    font-size: 36px;
+    
+    margin-bottom: 10px;
+  }
+  .heading-1{
+    margin-left: 3%;
+  }
+  .heading{
+    color: navy;
+  }
+  .cards{
+    display: flex;
+    
+    margin: -3%;
+  }
+  .card{
+    padding: 5%;
+    
+  }
+  .heading-2{
+    margin-left: 3%;
+  }
+  .side-text{
+    display: flex;
+  }
+  .heading-3{
+    margin: 2%;
+    
+  }
+  
+  span{
+    margin-left:4%;
+    margin-right: 4%;
+    margin-top: 2%;
+  }
+  .lists{
+    line-height: 157%;
+    color: navy;
+  }
+  .border{
+    border:3px solid;
+    color: maroon;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .card-border{
+    border: 1px solid;
+    color: navy;
+  }
+  .footer{
+    text-align: center;
+    color: navy;
+  }
+.footer-links{
+  display: flex;
+  margin-left: 35%;
+}
+.footer-links p{
+  font-weight: bold;
+  padding: 12px;
+  color: navy;
+  
+}
+.menu{
+  position: absolute;
+  right:30px;
+  margin-left: 20px;
+  display: none;
+  
+}
+@media(max-width:580px){
+  .menu{
+    display: flex;
+  }
+  .nav-links{
+    display: none;
+    position: fixed;
+    top:80px;
+    left: 0;
+    right: 0;
+    width:100%;
+    height:100%;
+    background-color: rgb(111, 7, 7);
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    font-size: 20px;
+  }
+  .nav-links a{
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    
+  }
+  
+  .nav-links.active{
+    display: flex;
+  }
+  .hero-banner{
+    width: 100%;
+    height: 150px;
+  }
+  .hero-text h1{
+    font-weight: 300;
+    font-size:20px;
+    margin-left: 72px;
+  }
+  .heading img{
+    width: 20px;
+    height: 20px;
+    margin-left:10px;
+  }
+  .heading{
+    font-size: 22px;
+  }
+  .heading-1 p{
+    font-size: 15px;
+    margin-left: 10px;
+  }
+  .cards {
+    flex-direction: column;
+    
+
+  }
+  .card-border img{
+    width:280px;
+    
+  }
+  .card-border{
+    margin-right: 13px;
+    
+  }
+  .card h2{
+    font-size: 20px;
+  }
+  .card p{
+    font-size: 16px;
+  }
+  .heading-2 p{
+    font-size: 15px;
+    margin-left: 10px;
+  }
+  .heading-3 p{
+    font-size: 15px;
+    margin-left: 10px;
+  }
+  .heading-3 h1{
+    font-size: 22px;
+    margin-left: 16px;
+  }
+  .side-text{
+    flex-direction: column;
+  }
+   
+  .footer p{
+    font-size: 15px;
+    margin: 12px;
+  }
+  .footer .footer-links p{
+    display:none;
+  }
+}
+
+
+
